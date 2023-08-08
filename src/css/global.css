@@ -3,5 +3,13 @@
 
 html {
     font-size: 62.5%;
-    
+    font-weight: 300;
+    color: var(--white);
   }
+  
+body {
+  background-color: var(--bg-dark-gray);
+  font-family: var(--primary-font);
+  font-size: var(--font-normal);
+    
+}

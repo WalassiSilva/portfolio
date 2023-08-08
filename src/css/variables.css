@@ -2,9 +2,9 @@
   --primary-color: #43bd8e;
   --secondary-color: #fd6c22;
   --white: #fff;
-  --background-dark: #040203;
-  --background-dark-gray: #282828;
-  --background-light-gray: #353535;
+  --bg-dark: #040203;
+  --bg-dark-gray: #282828;
+  --bg-light-gray: #353535;
 }
 
 :root{
