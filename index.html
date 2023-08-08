@@ -8,11 +8,12 @@
   <title>Walassi Silva - Desenvolvedor Frontend</title>
 
   <link rel="stylesheet" href="./src/css/font-awesome.css" />
-  <link rel="stylesheet" href="./src/css/variables.css" />
-  <link rel="stylesheet" href="./src/css/global.css" />
   <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/variables.css" />
   
   <!-- Global -->
+  <link rel="stylesheet" href="./src/css/global.css" />
+  <link rel="stylesheet" href="./src/css/sections/header.css" />
   
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
@@ -20,7 +21,28 @@
 
 <body>
   <header class="header">
-    
+    <div class="container">
+      <div class="row content-between items-center" >
+        <a href="#">
+          <h1 class="logo">WS</h1>
+        </a>
+
+        <nav>
+          <input type="checkbox" id="menu-hamburger">
+          <label for="menu-hamburger">
+            <div class="menu">
+              <span class="hamburger"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#about-me">Sobre mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <section class="home">
