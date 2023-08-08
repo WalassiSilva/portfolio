@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #43bd8e;
+  --secondary-color: #fd6c22;
+  --white: #fff;
+  --background-dark: #040203;
+  --background-dark-gray: #282828;
+  --background-light-gray: #353535;
+}
+
+:root{
+  --primary-font: "Poppings", sans serif;
+  --secondary-font: 'Raleway', sasn serif;
+  --font-normal: 1.6rem;
+  --font-big: 2.4rem;
+  --font-bigger: 3rem;
+  --font-giant: 4.5rem;
+}
+
+:root{ 
+  --mobile-padding: 3rem;
+}
