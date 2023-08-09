@@ -50,11 +50,42 @@ body {
   line-height: 4rem;
 }
 
-.outer-shadow {
+.outter-shadow {
   box-shadow: .3rem .3rem #222327, -.3rem -.3rem .3rem #545454;
 }
 
 .inner-shadow {
   box-shadow: inset .3rem .3rem .3rem #222327,
               inset -.3rem -.3rem .3rem #454545 ;
+}
+
+.section {
+  padding: 7rem 0 7rem;
+}
+
+.section-title {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 6rem 0;
+  background-color: red;
+}
+
+.section h2 {
+  font-size: var(--font-giant);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.button {
+  font-size: var(--font-big);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: all .3s ease;
+  background-color: var(--primary-color);
+}
+
+.button:hover{
+  background-color: var(--secondary-color);
+  color: var(--white);
 }
