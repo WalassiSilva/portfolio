@@ -1,0 +1,60 @@
+.projects .container-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 0 auto;
+    grid-gap: 2rem;
+}
+
+.projects .container-projects .project {
+    background-color: red;
+    border-radius: .5rem;
+    transition: all .3s ease;
+
+    position: relative;
+}
+
+.projects .container-projects .project:hover,
+.projects .container-projects .project:hover .project-info {
+    opacity: .8;
+}
+
+.projects .container-projects img {
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+}
+
+.projects .container-projects .project-info {
+    background-color: var(--bg-dark);
+    padding: 2rem;    
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.projects .container-projects .project-info p:nth-child(2) {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.projects .container-projects h3{
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--bg-dark);
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+    opacity: .7;
+}
+
+
+
+@media(max-width: 1280px) {
+    .projects .container-projects {
+        padding: var(--mobile-padding);
+    }
+}

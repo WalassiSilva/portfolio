@@ -1,1 +1,35 @@
 /* HABILIDADES */
+.skills .container-skills {
+    text-align: center;
+    justify-content: center;
+}
+
+.skills .container-skills .info {
+    max-width: 35rem;
+    padding: 4rem 2rem;
+}
+
+.skills .container-skills .info p,
+.skills .container-skills .info h3,
+.skills .container-skills .info .logo  {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition:all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.skills .container-skills .info h3{
+    color: var(--primary-color);
+    font-size: var(--font-bigger);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.skills .container-skills .info p{
+    font-size: 1.8rem;
+    font-family: var(--secondary-font);
+}
+
+.skills .container-skills .info .logo{
+    font-size: 8rem;
+}
