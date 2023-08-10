@@ -9,6 +9,11 @@
     padding: 4rem 2rem;
 }
 
+.skills .container-skills .info:hover {
+    color: var(--primary-color);
+
+}
+
 .skills .container-skills .info p,
 .skills .container-skills .info h3,
 .skills .container-skills .info .logo  {
